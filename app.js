@@ -1,4 +1,4 @@
-const SUPABASE_URL="PASTE_YOUR_SUPABASE_PROJECT_URL_HERE";const SUPABASE_PUBLISHABLE_KEY="PASTE_YOUR_SUPABASE_PUBLISHABLE_KEY_HERE";const db=supabase.createClient(SUPABASE_URL,SUPABASE_PUBLISHABLE_KEY);const $=id=>document.getElementById(id);let user=null,profile=null,mode="login";
+const SUPABASE_URL="https://fmnrzasfkmwotcdtmppv.supabase.co";const SUPABASE_PUBLISHABLE_KEY="sb_publishable_tueSm-yWfGRlLSI5t64luQ_u08fKq7i";const db=supabase.createClient(SUPABASE_URL,SUPABASE_PUBLISHABLE_KEY);const $=id=>document.getElementById(id);let user=null,profile=null,mode="login";
 const esc=s=>(s||"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));
 function go(p){document.querySelectorAll(".page").forEach(x=>x.classList.remove("active"));$(p).classList.add("active");if(p==="home")feed();if(p==="categories")cats();if(p==="profile")myProfile();if(p==="admin")admin();scrollTo(0,0)}
 document.querySelectorAll("[data-page]").forEach(b=>b.onclick=()=>go(b.dataset.page));
