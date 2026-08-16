@@ -1,17 +1,1 @@
-<!doctype html>
-<html lang="tr">
-<head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>RAINMAN SHORTS</title><link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div id="app">
-<header><div class="logo">RAINMAN <span>SHORTS</span></div><nav>
-<button data-page="home">Ana Sayfa</button><button data-page="explore">Keşfet</button>
-<button data-page="upload">＋ Yükle</button><button data-page="profile">Profil</button><button data-page="admin">Admin</button>
-</nav><button id="authBtn" class="primary">Giriş Yap</button></header>
-<main id="content"></main>
-</div>
-<div id="modal" class="modal hidden"><div class="modal-box"><button class="close" onclick="closeModal()">×</button><div id="modalContent"></div></div></div>
-<script src="app.js"></script>
-</body></html>
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RAINMAN SHORTS v2</title><link rel="stylesheet" href="style.css"></head><body><header><div class="logo">RAINMAN <span>SHORTS</span></div><nav><button onclick="go('home')">Ana Sayfa</button><button onclick="go('explore')">Keşfet</button><button onclick="go('upload')">＋ Yükle</button><button onclick="go('profile')">Profil</button><button onclick="go('admin')">Admin</button></nav><button id="auth" class="primary">Giriş Yap</button></header><main id="app"></main><div id="modal" class="hidden"></div><script src="app.js"></script></body></html>

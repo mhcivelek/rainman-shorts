@@ -1,15 +1,6 @@
-# RAINMAN SHORTS — İlk Sürüm
+# RAINMAN SHORTS v2
+Video seçildiğinde anlık önizleme ve Shorts akışında gerçek video oynatma eklendi.
 
-Bu klasör, tarayıcıda çalışan bir frontend prototipidir.
+Demo admin: admin@rainmanshorts.com / admin123
 
-## Çalıştırma
-`index.html` dosyasını tarayıcıda açın.
-
-Demo admin hesabı:
-- E-posta: `admin@rainmanshorts.com`
-- Şifre: `admin123`
-
-## Önemli
-Bu sürüm gerçek bir üretim video platformu değildir. Kullanıcılar ve videolar `localStorage` içinde tutulur; yüklenen video dosyası sunucuya gönderilmez. Gerçek sistem için backend, veritabanı, obje depolama, e-posta/kimlik doğrulama ve sunucu tarafı içerik moderasyonu eklenmelidir.
-
-+18 engeli frontend onay kutusu seviyesindedir; üretimde otomatik moderasyon ve admin incelemesi sunucu tarafında uygulanmalıdır.
+Bu sürüm frontend demosudur. Video Data URL olarak localStorage'a kaydedilir; gerçek çok kullanıcılı sistem için backend, veritabanı ve video storage gerekir.
